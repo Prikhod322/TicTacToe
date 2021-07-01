@@ -1,4 +1,6 @@
-﻿namespace TicTacToe_Statistics
+﻿using System.Windows.Forms;
+
+namespace TicTacToe_Statistics
 {
     partial class Form1
     {
@@ -32,8 +34,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form1";
+
+            button = new Button()
+            {
+                Size = new System.Drawing.Size(50,50)
+            }
+
+            Controls.Add(button);
         }
 
+        private Button button;
         #endregion
     }
 }
