@@ -37,8 +37,8 @@ namespace TicTacToe_Statistics
 
             button = new Button()
             {
-                Size = new System.Drawing.Size(50,50)
-            }
+                Size = new System.Drawing.Size(50, 50)
+            };
 
             Controls.Add(button);
         }
